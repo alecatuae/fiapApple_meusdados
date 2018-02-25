@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+{
+    
+    __weak IBOutlet UILabel *meuLabel1;
+    
+    __weak IBOutlet UILabel *meuLabel2;
+    
+    
+}
+
+- (IBAction)exibir:(id)sender;
 
 @end
 

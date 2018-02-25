@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    meuLabel1.text = @"Meu nome é.....";
+    meuLabel2.text = @"Minha idade é...";
+    
 }
 
 
@@ -26,4 +30,8 @@
 }
 
 
+- (IBAction)exibir:(id)sender {
+    meuLabel1.text = @"Alexandre E. do Nascimento";
+    meuLabel2.text = @"Minha Idade é 38 anos";
+}
 @end
